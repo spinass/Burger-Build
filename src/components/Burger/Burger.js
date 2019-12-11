@@ -16,6 +16,9 @@ const burger = props => {
   if (transformedIngredients.length === 0) {
     transformedIngredients = <p>Prasau pasirinkti ingredijentus!</p>;
   }
+  if (transformedIngredients.length >= 7) {
+    transformedIngredients = <p>Nepaspring!</p>;
+  }
   return (
     <div className="Burger">
       <BurgerIngredient type="bread-top" />
