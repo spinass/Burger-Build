@@ -14,9 +14,9 @@ const burger = props => {
       return arr.concat(el);
     }, []);
   if (transformedIngredients.length === 0) {
-    transformedIngredients = <p>Prasau pasirinkti ingredijentus!</p>;
+    transformedIngredients = <p>Prašau pasirinkti ingredijentus!</p>;
   }
-  if (transformedIngredients.length >= 7) {
+  if (transformedIngredients.length >= 12) {
     transformedIngredients = <p>Nepaspring!</p>;
   }
   return (
