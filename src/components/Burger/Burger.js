@@ -16,7 +16,7 @@ const burger = props => {
   if (transformedIngredients.length === 0) {
     transformedIngredients = <p>Prašau pasirinkti ingredijentus!</p>;
   }
-  if (transformedIngredients.length >= 12) {
+  if (transformedIngredients.length >= 8) {
     transformedIngredients = <p>Nepaspring!</p>;
   }
   return (
