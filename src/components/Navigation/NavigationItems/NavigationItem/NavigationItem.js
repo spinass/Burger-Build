@@ -2,7 +2,7 @@ import React from "react";
 
 import "./NavigationItem.css";
 
-const navigatioItem = props => (
+const navigationItem = props => (
   <li className="NavigationItem">
     <a href={props.link} className={props.active ? "active" : null}>
       {props.children}
@@ -10,4 +10,4 @@ const navigatioItem = props => (
   </li>
 );
 
-export default navigatioItem;
+export default navigationItem;
